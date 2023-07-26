@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(250, 248, 239);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, p{
+    color: #776E65;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    margin: 50px auto;
+}
+p{
+    margin: 15px auto;
+    font-size: 22px;
+}
+.grid{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    flex-wrap: wrap;
+    background-color: rgb(187, 173, 160);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.grid div{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+    color: #FFF;
+    box-sizing: border-box;
+    font-weight: 600;
+    background-color: rgb(205, 193, 180);
+    border-radius: 5px;
+    margin: 5px;
+}
+.grid .color-0{
+    background: rgb(205, 193, 180);
+    color: rgb(205, 193, 180);;
+}
+.grid .color-2{
+    background: #EEE4DA;
+    color: #776E65;
+}
+.grid .color-4{
+    background: #EEE1C9;
+    color: #776E65;
+}
+.grid .color-8{
+    background: #F3B27A;
+    color: #FFF;
+}
+.grid .color-16{
+    background: #F69664;
+    color: #FFF;
+}
+.grid .color-32{
+    background: #F77C5F;
+    color: #FFF;
+}
+.grid .color-64{
+    background: #F75F3B;
+    color: #FFF;
+}
+.grid .color-128{
+    background: #EDD073;
+}
+.grid .color-256{
+    background: #d4b755;
+}
+.grid .color-512{
+    background: #bb9d3b;
+}
+.grid .color-1024{
+    background: #af9336;
+}
+.grid .color-2048{
+    background: #d48855;
+}
