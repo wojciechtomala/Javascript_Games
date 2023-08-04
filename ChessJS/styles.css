@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gameboard{
+    width: 800px;
+    height: 800px;
+    background-color: #222;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.square svg{
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+}
+path{
+    position: relative;
+    z-index: -10;
+}
+.piece{
+    position: relative;
+    z-index: 9;
+}
+.beige{
+    background-color: rgb(160, 160, 141);
+}
+.brown{
+    background-color: rgba(187, 108, 108, 0.699);
+}
+.black{
+    fill: #272727;
+}
+.white{
+    fill: #ffffff;
+}
+p{
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px 5px;
+    font-size: 20px;
+    background-color: rgb(233, 233, 233);
+    width: 600px;
+    border-radius: 5px;
+    color: #444;
+}
