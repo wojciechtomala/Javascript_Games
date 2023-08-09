@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing game</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Typing speed game</h1>
+    <div class="timer">Time: <span id="timer"></span></div>
+    <div class="score-info">Correct: <span id="char-correct">0</span> / <span id="char-limit">0</span> (Left: <span id="char-left">0</span>)</div>
+    <div class="container">
+        <div class="quote-display" id="quoteDisplay">quote-display</div>
+        <textarea rows="10" class="quote-input" name="quoteInput" id="quoteInput" autofocus></textarea>
+    </div>
+    <div class="last-attempt">Char per second: <span id="result">(no attempt)</span></div>
+</body>
+</html>
